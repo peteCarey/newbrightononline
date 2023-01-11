@@ -1,0 +1,44 @@
+.navbar {
+  margin-bottom: 0;
+  background-color: #f4511e;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+.navbar li a,
+.navbar .navbar-brand {
+  color: #000000;
+}
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #000000;
+  background-color: #fdd9ce !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #ffff00;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #000000;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  color: #333;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #333;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #333;
+  }
+}

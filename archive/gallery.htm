@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>New Brighton Online</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script>
+
+function loadGallery()
+{
+
+var gallery = [""];
+
+	for (var i = 1; i < 83; i++) {	
+		if (i < 81){
+		gallery.push("assets/images/commCentre/" + i + ".gif");
+		}
+		if (i > 80){
+		gallery.push("assets/images/commCentre/" + i + ".jpg");
+		}
+}
+
+for (var i = 1; i < gallery.length; i++) {
+
+	var img = document.getElementById(i);
+	img.src= gallery[i];
+
+	img.height = 100;
+	img.width = 100;
+	
+	}
+ 
+}
+
+
+var theId
+function grabID(e){ 
+var targ;
+if (!e) var e = window.event;
+if (e.target) targ = e.target;
+else if (e.srcElement) targ = e.srcElement;
+if (targ.nodeType == 3) // defeat Safari bug
+targ = targ.parentNode;
+i=targ.id
+if (i < 81){
+theImage = "assets/images/commCentre/" + i + ".gif";
+}
+if (i > 80){
+theImage = "assets/images/commCentre/" + i + ".jpg";
+}
+
+document.images.slide.src = theImage;
+}
+document.onclick=grabID;
+</script>
+  <style>
+  .container{
+    margin-left: 5%; 
+    margin-right: 5%;
+	background-color: #FFFFFF;
+	
+	border-style:solid;	
+	border-color:#FFCC99;		
+	overflow;hidden;
+ }
+  .jumbotron {
+      background-color: #f4511e;
+      color: #fff;
+      padding: 100px 25px;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+  
+      /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+ 
+  </style>
+</head>
+<body onLoad="loadGallery()">
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" ></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      <li class="active"><a href="newbrightononline.htm">Home</a></li>
+      <li><a href="news.htm">News</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Whats On
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="whatson.htm">Whats On</a></li>
+          <li><a href="localevents.htm">Local Events</a></li>          
+        </ul>
+      </li>
+ 
+      <li><a href="howto.htm">Hire a Room</a></li>
+      <li><a href="https://www.wirral.gov.uk/about-council/contact-us/one-stop-shops" target="_blank" >One Stop Shops</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Community Association
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">        
+          <li><a href="comasso.htm">Community Association</a></li>
+          <li><a href="origins.htm">Origins of the Community Association</a></li>
+          <li><a href="gallery.htm">The Gallery</a></li>
+        </ul>
+      </li>
+          <li><a href="history.htm">History of New Brighton</a></li>
+            <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact Us
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">       
+        
+          <li><a href="contact.htm">Contact Us</a></li> 
+          <li><a href="mapinfo.htm">Where are We</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="webcam.htm">Web Cams</a></li>
+     
+  
+    </ul>
+    </div>
+  </div>
+</nav>
+  
+    
+<div class="container">
+	<div class="jumbotron text-center">
+  		<h1>Gallery</h1>
+	</div>
+
+
+
+	<div class="col-sm-12">
+  		<h2>Image Gallery</h2>
+  			<p>Do you remember yourself or any of your friends from our archive, maybe you were part of the Pensioners Lunch Club, Credit Union, on the Committee, helping out at the Youth Club, putting together the Christmas grotto, putting up the tree and decorations around the building or helping the Tuesday Club with their many activities. Let us know? </p></p>            
+	</div>
+         
+  
+	<div class="thumbnail">
+		<div class="row">
+			<div class="col-sm-3">
+				<img class="img-responsive" id="1" src="#" alt="#">
+                <img class="img-responsive" id="2" src="#" alt="#">
+                <img class="img-responsive" id="3" src="#" alt="#">
+                <img class="img-responsive" id="4" src="#" alt="#">
+                <img class="img-responsive" id="5" src="#" alt="#">
+                <img class="img-responsive" id="6" src="#" alt="#">
+                <img class="img-responsive" id="7" src="#" alt="#">
+                <img class="img-responsive" id="6" src="#" alt="#">
+                <img class="img-responsive" id="7" src="#" alt="#">
+                <img class="img-responsive" id="8" src="#" alt="#">
+                <img class="img-responsive" id="9" src="#" alt="#">
+                <img class="img-responsive" id="10" src="#" alt="#">
+                <img class="img-responsive" id="11" src="#" alt="#">
+                <img class="img-responsive" id="12" src="#" alt="#">
+                <img class="img-responsive" id="13" src="#" alt="#">
+                <img class="img-responsive" id="14" src="#" alt="#">
+                <img class="img-responsive" id="15" src="#" alt="#">
+                <img class="img-responsive" id="16" src="#" alt="#">
+                <img class="img-responsive" id="17" src="#" alt="#">
+                <img class="img-responsive" id="18" src="#" alt="#">
+                <img class="img-responsive" id="19" src="#" alt="#">
+                <img class="img-responsive" id="20" src="#" alt="#">
+                <img class="img-responsive" id="21" src="#" alt="#">
+                <img class="img-responsive" id="22" src="#" alt="#">
+            </div>
+            <div class="col-sm-3">
+                <img class="img-responsive" id="23" src="#" alt="#">
+                <img class="img-responsive" id="24" src="#" alt="#">
+                <img class="img-responsive" id="25" src="#" alt="#">
+                <img class="img-responsive" id="26" src="#" alt="#">
+                <img class="img-responsive" id="27" src="#" alt="#">
+                <img class="img-responsive" id="28" src="#" alt="#">
+                <img class="img-responsive" id="29" src="#" alt="#">
+                <img class="img-responsive" id="30" src="#" alt="#">
+                <img class="img-responsive" id="31" src="#" alt="#">
+                <img class="img-responsive" id="32" src="#" alt="#">
+                <img class="img-responsive" id="33" src="#" alt="#">
+                <img class="img-responsive" id="34" src="#" alt="#">
+                <img class="img-responsive" id="35" src="#" alt="#">
+                <img class="img-responsive" id="36" src="#" alt="#">
+                <img class="img-responsive" id="37" src="#" alt="#">
+                <img class="img-responsive" id="38" src="#" alt="#">
+                <img class="img-responsive" id="39" src="#" alt="#">
+                <img class="img-responsive" id="40" src="#" alt="#">
+                <img class="img-responsive" id="41" src="#" alt="#">
+                <img class="img-responsive" id="42" src="#" alt="#">
+            </div>
+			<div class="col-sm-3">
+                <img class="img-responsive" id="43" src="#" alt="#">
+                <img class="img-responsive" id="44" src="#" alt="#">
+                <img class="img-responsive" id="45" src="#" alt="#">
+                <img class="img-responsive" id="46" src="#" alt="#">
+                <img class="img-responsive" id="47" src="#" alt="#">
+                <img class="img-responsive" id="48" src="#" alt="#">
+                <img class="img-responsive" id="49" src="#" alt="#">
+                <img class="img-responsive" id="50" src="#" alt="#">
+                <img class="img-responsive" id="51" src="#" alt="#">
+                <img class="img-responsive" id="52" src="#" alt="#">
+                <img class="img-responsive" id="53" src="#" alt="#">
+                <img class="img-responsive" id="54" src="#" alt="#">
+                <img class="img-responsive" id="55" src="#" alt="#">
+                <img class="img-responsive" id="56" src="#" alt="#">
+                <img class="img-responsive" id="57" src="#" alt="#">
+                <img class="img-responsive" id="58" src="#" alt="#">
+                <img class="img-responsive" id="59" src="#" alt="#">
+                <img class="img-responsive" id="60" src="#" alt="#">
+                <img class="img-responsive" id="61" src="#" alt="#">
+                <img class="img-responsive" id="62" src="#" alt="#">
+                <img class="img-responsive" id="63" src="#" alt="#">
+			</div>
+            <div class="col-sm-3">
+            <img class="img-responsive" id="64" src="#" alt="#">
+            <img class="img-responsive" id="65" src="#" alt="#">
+            <img class="img-responsive" id="66" src="#" alt="#">
+            <img class="img-responsive" id="67" src="#" alt="#">
+            <img class="img-responsive" id="68" src="#" alt="#">
+            <img class="img-responsive" id="69" src="#" alt="#">
+            <img class="img-responsive" id="70" src="#" alt="#">
+            <img class="img-responsive" id="71" src="#" alt="#">
+            <img class="img-responsive" id="72" src="#" alt="#">
+            <img class="img-responsive" id="73" src="#" alt="#">
+            <img class="img-responsive" id="74" src="#" alt="#">
+            <img class="img-responsive" id="75" src="#" alt="#">
+            <img class="img-responsive" id="76" src="#" alt="#">
+            <img class="img-responsive" id="77" src="#" alt="#">
+            <img class="img-responsive" id="78" src="#" alt="#">
+            <img class="img-responsive" id="79" src="#" alt="#">
+            <img class="img-responsive" id="80" src="#" alt="#">
+            <img class="img-responsive" id="81" src="#" alt="#">
+            <img class="img-responsive" id="82" src="#" alt="#">
+		</div>
+	</div>
+  
+	<div class="row">
+    <H3>Click on a picture to enlarge it. </H3>
+        <div class="col-sm-2" style="background-color:lavender"></div>
+        <div class="col-sm-8">
+            <!-- wrapper element for the large image -->
+            <div id="image_wrap">
+                <!-- Initially the image is a simple 1x1 pixel transparent GIF -->
+                <img class="img-responsive" id = "slide" src="assets/images/bg.jpg" alt="main image" />
+            </div>
+            	</br>
+		</div>
+		<div class="col-sm-2" style="background-color:lavender"></div>            
+	</div>
+</div>
+
+
+
+<div class="container-fluid">
+ 	<div class="row">
+    	<div class="col-sm-4" style="background-color: #f4511e;"><a href="http://www.newbrightononline.org.uk/history/index.htm" target="_blank"><img class="img-responsive" src="assets/BOX_HIS.gif" alt="history" /></a></div>
+    	<div class="col-sm-4" style="background-color: #f4511e;"><a href="comnews.htm"><img class="img-responsive" src="assets/BOX_COM.gif"  alt="communityNews" /></a></div>  
+    	<div class="col-sm-4" style="background-color: #f4511e;"><a href="links.htm"><img class="img-responsive" src="assets/BOX_LINKS.gif"  alt="usefulLinks" /></a></div>
+	</div>  
+	<div class="row">
+  <div class="col-sm-4"><a href="http://www.wirral.gov.uk/" target="_blank" class="list-group-item"><img class="img-responsive" src="assets/support_wbc.gif" alt="wirral b c" /></a></div>
+   <div class="col-sm-4"><a href="http://www.dfes.gov.uk" target="_blank" class="list-group-item"><img class="img-responsive" src="assets/support_dfes.gif"  alt="DFES" /></a></div>
+  <div class="col-sm-4"><a href="http://www.awardsforall.org.uk" target="_blank" class="list-group-item"><img class="img-responsive" src="assets/support_awards.gif" alt="awards" /></a></div>
+</div>
+  <div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+    <ul class="list-group">
+    <li class="list-group-item">NEW BRIGHTON ONLINE</li>
+    <li class="list-group-item">New Brighton Community Centre,</li>
+    <li class="list-group-item">1A Hope Street,</li>
+    <li class="list-group-item">New Brighton,</li>
+    <li class="list-group-item">Merseyside, </li>
+    <li class="list-group-item">CH45 2LN</li>
+    <li class="list-group-item">EMAIL: <a href="mailto:newbrightononline@gmail.com">newbrightononline@gmail.com</a></li>
+    <li class="list-group-item"><a href=" https://twitter.com/NBCommunityCent" class="twitter-follow-button" data-show-count="false">Follow @twitter</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+    <li class="list-group-item"><a href="https://www.facebook.com/new.brighton.9" target="_blank"><img src="http://www.newbrightononline.org.uk/assets/FB_FindUsOnFacebook-100.png" alt="facebook">																		</a></li>
+    <li class="list-group-item">TEL: 0151 630 2626</li>
+    <li class="list-group-item"><a href="http://www.newbrightononline.org.uk/Docs/NBCC%20HIRE%20BOOKING%20ORM.PUB">NBCC Hire Booking Form</a></li>
+    <li class="list-group-item">Website Developed and Maintained by P Carey</li> 
+    <li class="list-group-item">&copy; Copyright MMXVI New Brighton Online</li>     
+  </ul>		
+</div>
+  <div class="col-sm-4"></div>
+</div>  
+			
+				
+				
+
+</div> 
+</div>      
+</div>      
+  
+</div>
+
+
+
+
+</div>
+
+</html>

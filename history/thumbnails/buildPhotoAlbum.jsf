@@ -1,0 +1,261 @@
+App.progressCountTotal = 32;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+var gReturn='';
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/BAND_STAND_NEW_BRIGHTON.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'BAND_STAND_NEW_BRIGHTON.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/BAND_STAND_NEW_BRIGHTON_f.jpg') || confirm('file:///F|/NBO/history/fullimages/BAND_STAND_NEW_BRIGHTON_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/BAND_STAND_NEW_BRIGHTON_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/BAND_STAND_NEW_BRIGHTON_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/BAND_STAND_NEW_BRIGHTON_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/BAND_STAND_NEW_BRIGHTON_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/BATHS_NEW_BRIGHTON_01.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'BATHS_NEW_BRIGHTON_01.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/BATHS_NEW_BRIGHTON_01_f.jpg') || confirm('file:///F|/NBO/history/fullimages/BATHS_NEW_BRIGHTON_01_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/BATHS_NEW_BRIGHTON_01_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/BATHS_NEW_BRIGHTON_01_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/BATHS_NEW_BRIGHTON_01_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/BATHS_NEW_BRIGHTON_01_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/BEACH_NEW_BRIGHTON_01.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'BEACH_NEW_BRIGHTON_01.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/BEACH_NEW_BRIGHTON_01_f.jpg') || confirm('file:///F|/NBO/history/fullimages/BEACH_NEW_BRIGHTON_01_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/BEACH_NEW_BRIGHTON_01_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/BEACH_NEW_BRIGHTON_01_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/BEACH_NEW_BRIGHTON_01_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/BEACH_NEW_BRIGHTON_01_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/FAIR_GROUND_NEW_BRIGHTON_01.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'FAIR_GROUND_NEW_BRIGHTON_01.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/FAIR_GROUND_NEW_BRIGHTON_01_f.jpg') || confirm('file:///F|/NBO/history/fullimages/FAIR_GROUND_NEW_BRIGHTON_01_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/FAIR_GROUND_NEW_BRIGHTON_01_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/FAIR_GROUND_NEW_BRIGHTON_01_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/FAIR_GROUND_NEW_BRIGHTON_01_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/FAIR_GROUND_NEW_BRIGHTON_01_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/FAIR_GROUND_NEW_BRIGHTON_02.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'FAIR_GROUND_NEW_BRIGHTON_02.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/FAIR_GROUND_NEW_BRIGHTON_02_f.jpg') || confirm('file:///F|/NBO/history/fullimages/FAIR_GROUND_NEW_BRIGHTON_02_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/FAIR_GROUND_NEW_BRIGHTON_02_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/FAIR_GROUND_NEW_BRIGHTON_02_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/FAIR_GROUND_NEW_BRIGHTON_02_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/FAIR_GROUND_NEW_BRIGHTON_02_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/FAIR_GROUND_NEW_BRIGHTON_03.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'FAIR_GROUND_NEW_BRIGHTON_03.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/FAIR_GROUND_NEW_BRIGHTON_03_f.jpg') || confirm('file:///F|/NBO/history/fullimages/FAIR_GROUND_NEW_BRIGHTON_03_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/FAIR_GROUND_NEW_BRIGHTON_03_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/FAIR_GROUND_NEW_BRIGHTON_03_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/FAIR_GROUND_NEW_BRIGHTON_03_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/FAIR_GROUND_NEW_BRIGHTON_03_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/FAIR_GROUND_NEW_BRIGHTON_04.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'FAIR_GROUND_NEW_BRIGHTON_04.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/FAIR_GROUND_NEW_BRIGHTON_04_f.jpg') || confirm('file:///F|/NBO/history/fullimages/FAIR_GROUND_NEW_BRIGHTON_04_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/FAIR_GROUND_NEW_BRIGHTON_04_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/FAIR_GROUND_NEW_BRIGHTON_04_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/FAIR_GROUND_NEW_BRIGHTON_04_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/FAIR_GROUND_NEW_BRIGHTON_04_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/FERRY_BOATS_01.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'FERRY_BOATS_01.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/FERRY_BOATS_01_f.jpg') || confirm('file:///F|/NBO/history/fullimages/FERRY_BOATS_01_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/FERRY_BOATS_01_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/FERRY_BOATS_01_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/FERRY_BOATS_01_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/FERRY_BOATS_01_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/FERRY_BOATS_02.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'FERRY_BOATS_02.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/FERRY_BOATS_02_f.jpg') || confirm('file:///F|/NBO/history/fullimages/FERRY_BOATS_02_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/FERRY_BOATS_02_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/FERRY_BOATS_02_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/FERRY_BOATS_02_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/FERRY_BOATS_02_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/FORT_NEW_BRIGHTON_01.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'FORT_NEW_BRIGHTON_01.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/FORT_NEW_BRIGHTON_01_f.jpg') || confirm('file:///F|/NBO/history/fullimages/FORT_NEW_BRIGHTON_01_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/FORT_NEW_BRIGHTON_01_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/FORT_NEW_BRIGHTON_01_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/FORT_NEW_BRIGHTON_01_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/FORT_NEW_BRIGHTON_01_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/FORT_NEW_BRIGHTON_02.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'FORT_NEW_BRIGHTON_02.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/FORT_NEW_BRIGHTON_02_f.jpg') || confirm('file:///F|/NBO/history/fullimages/FORT_NEW_BRIGHTON_02_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/FORT_NEW_BRIGHTON_02_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/FORT_NEW_BRIGHTON_02_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/FORT_NEW_BRIGHTON_02_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/FORT_NEW_BRIGHTON_02_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/LANDING_STAGE_LIVERPOOL_1951.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'LANDING_STAGE_LIVERPOOL_1951.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/LANDING_STAGE_LIVERPOOL_1951_f.jpg') || confirm('file:///F|/NBO/history/fullimages/LANDING_STAGE_LIVERPOOL_1951_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/LANDING_STAGE_LIVERPOOL_1951_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/LANDING_STAGE_LIVERPOOL_1951_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/LANDING_STAGE_LIVERPOOL_1951_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/LANDING_STAGE_LIVERPOOL_1951_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/LANDING_STAGE_LIVERPOOL_1954.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'LANDING_STAGE_LIVERPOOL_1954.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/LANDING_STAGE_LIVERPOOL_1954_f.jpg') || confirm('file:///F|/NBO/history/fullimages/LANDING_STAGE_LIVERPOOL_1954_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/LANDING_STAGE_LIVERPOOL_1954_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/LANDING_STAGE_LIVERPOOL_1954_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/LANDING_STAGE_LIVERPOOL_1954_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/LANDING_STAGE_LIVERPOOL_1954_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/LEAVING_LIVERPOOL_1919.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'LEAVING_LIVERPOOL_1919.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/LEAVING_LIVERPOOL_1919_f.jpg') || confirm('file:///F|/NBO/history/fullimages/LEAVING_LIVERPOOL_1919_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/LEAVING_LIVERPOOL_1919_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/LEAVING_LIVERPOOL_1919_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/LEAVING_LIVERPOOL_1919_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/LEAVING_LIVERPOOL_1919_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/LISCARD_CENTRAL_01.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'LISCARD_CENTRAL_01.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/LISCARD_CENTRAL_01_f.jpg') || confirm('file:///F|/NBO/history/fullimages/LISCARD_CENTRAL_01_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/LISCARD_CENTRAL_01_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/LISCARD_CENTRAL_01_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/LISCARD_CENTRAL_01_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/LISCARD_CENTRAL_01_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/LISCARD_CENTRAL_02.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'LISCARD_CENTRAL_02.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/LISCARD_CENTRAL_02_f.jpg') || confirm('file:///F|/NBO/history/fullimages/LISCARD_CENTRAL_02_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/LISCARD_CENTRAL_02_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/LISCARD_CENTRAL_02_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/LISCARD_CENTRAL_02_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/LISCARD_CENTRAL_02_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/LISCARD_HALL_02.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'LISCARD_HALL_02.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/LISCARD_HALL_02_f.jpg') || confirm('file:///F|/NBO/history/fullimages/LISCARD_HALL_02_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/LISCARD_HALL_02_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/LISCARD_HALL_02_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/LISCARD_HALL_02_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/LISCARD_HALL_02_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/LISCARD_HALL_04.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'LISCARD_HALL_04.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/LISCARD_HALL_04_f.jpg') || confirm('file:///F|/NBO/history/fullimages/LISCARD_HALL_04_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/LISCARD_HALL_04_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/LISCARD_HALL_04_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/LISCARD_HALL_04_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/LISCARD_HALL_04_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/LIVER_BIRDS_01.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'LIVER_BIRDS_01.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/LIVER_BIRDS_01_f.jpg') || confirm('file:///F|/NBO/history/fullimages/LIVER_BIRDS_01_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/LIVER_BIRDS_01_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/LIVER_BIRDS_01_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/LIVER_BIRDS_01_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/LIVER_BIRDS_01_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/MARINE_PARK NEW_BRIGHTON.jpg');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'MARINE_PARK NEW_BRIGHTON.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/MARINE_PARK NEW_BRIGHTON_f.jpg') || confirm('file:///F|/NBO/history/fullimages/MARINE_PARK NEW_BRIGHTON_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/MARINE_PARK NEW_BRIGHTON_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/MARINE_PARK NEW_BRIGHTON_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/MARINE_PARK NEW_BRIGHTON_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/MARINE_PARK NEW_BRIGHTON_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/MERSEY_DREDGER_01.jpg');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'MERSEY_DREDGER_01.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/MERSEY_DREDGER_01_f.jpg') || confirm('file:///F|/NBO/history/fullimages/MERSEY_DREDGER_01_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/MERSEY_DREDGER_01_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/MERSEY_DREDGER_01_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/MERSEY_DREDGER_01_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/MERSEY_DREDGER_01_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/PIER_NEW_BRIGHTON_01.jpg');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'PIER_NEW_BRIGHTON_01.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/PIER_NEW_BRIGHTON_01_f.jpg') || confirm('file:///F|/NBO/history/fullimages/PIER_NEW_BRIGHTON_01_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/PIER_NEW_BRIGHTON_01_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/PIER_NEW_BRIGHTON_01_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/PIER_NEW_BRIGHTON_01_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/PIER_NEW_BRIGHTON_01_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/PIER_NEW_BRIGHTON_02.jpg');
+App.progressCountCurrent = 23;
+App.batchStatusString = 'PIER_NEW_BRIGHTON_02.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/PIER_NEW_BRIGHTON_02_f.jpg') || confirm('file:///F|/NBO/history/fullimages/PIER_NEW_BRIGHTON_02_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/PIER_NEW_BRIGHTON_02_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/PIER_NEW_BRIGHTON_02_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/PIER_NEW_BRIGHTON_02_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/PIER_NEW_BRIGHTON_02_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/PIER_NEW_BRIGHTON_03.jpg');
+App.progressCountCurrent = 24;
+App.batchStatusString = 'PIER_NEW_BRIGHTON_03.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/PIER_NEW_BRIGHTON_03_f.jpg') || confirm('file:///F|/NBO/history/fullimages/PIER_NEW_BRIGHTON_03_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/PIER_NEW_BRIGHTON_03_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/PIER_NEW_BRIGHTON_03_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/PIER_NEW_BRIGHTON_03_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/PIER_NEW_BRIGHTON_03_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/TOWER_NEW_BRIGHTON_01.jpg');
+App.progressCountCurrent = 25;
+App.batchStatusString = 'TOWER_NEW_BRIGHTON_01.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_01_f.jpg') || confirm('file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_01_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_01_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_01_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_01_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_01_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/TOWER_NEW_BRIGHTON_02.jpg');
+App.progressCountCurrent = 26;
+App.batchStatusString = 'TOWER_NEW_BRIGHTON_02.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_02_f.jpg') || confirm('file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_02_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_02_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_02_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_02_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_02_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/TOWER_NEW_BRIGHTON_03.jpg');
+App.progressCountCurrent = 27;
+App.batchStatusString = 'TOWER_NEW_BRIGHTON_03.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_03_f.jpg') || confirm('file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_03_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_03_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_03_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_03_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_03_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/TOWER_NEW_BRIGHTON_04.jpg');
+App.progressCountCurrent = 28;
+App.batchStatusString = 'TOWER_NEW_BRIGHTON_04.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_04_f.jpg') || confirm('file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_04_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_04_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_04_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_04_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_04_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/TOWER_NEW_BRIGHTON_05.jpg');
+App.progressCountCurrent = 29;
+App.batchStatusString = 'TOWER_NEW_BRIGHTON_05.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_05_f.jpg') || confirm('file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_05_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_05_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_05_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_05_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_05_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/TOWER_NEW_BRIGHTON_06.jpg');
+App.progressCountCurrent = 30;
+App.batchStatusString = 'TOWER_NEW_BRIGHTON_06.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_06_f.jpg') || confirm('file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_06_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/TOWER_NEW_BRIGHTON_06_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_06_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_06_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/TOWER_NEW_BRIGHTON_06_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/VALE_PARK_NEW_BRIGHTON.jpg');
+App.progressCountCurrent = 31;
+App.batchStatusString = 'VALE_PARK_NEW_BRIGHTON.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/VALE_PARK_NEW_BRIGHTON_f.jpg') || confirm('file:///F|/NBO/history/fullimages/VALE_PARK_NEW_BRIGHTON_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/VALE_PARK_NEW_BRIGHTON_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/VALE_PARK_NEW_BRIGHTON_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/VALE_PARK_NEW_BRIGHTON_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/VALE_PARK_NEW_BRIGHTON_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+doc = fw.openDocument('file:///F|/NBO/assets/images/history/large/WAR_DAMAGE_01.jpg');
+App.progressCountCurrent = 32;
+App.batchStatusString = 'WAR_DAMAGE_01.jpg';
+if (!Files.exists('file:///F|/NBO/history/fullimages/WAR_DAMAGE_01_f.jpg') || confirm('file:///F|/NBO/history/fullimages/WAR_DAMAGE_01_f.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/fullimages/WAR_DAMAGE_01_f.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/NBO/history/thumbnails/WAR_DAMAGE_01_t.jpg') || confirm('file:///F|/NBO/history/thumbnails/WAR_DAMAGE_01_t.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/NBO/history/thumbnails/WAR_DAMAGE_01_t.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc,false);
+gReturn+'vwddone';

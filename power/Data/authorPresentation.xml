@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<presentation>
+  <properties>
+    <title><![CDATA[]]></title>
+    <creationdate>02/09/2008 16:46:37</creationdate>
+    <audio>off</audio>
+    <navigationonclick>false</navigationonclick>
+    <animations>false</animations>
+    <transitions>true</transitions>
+    <sdkversion>07</sdkversion>
+    <video>
+    </video>
+    <templatecolor>Silver</templatecolor>
+    <layout>E-Learning Standard</layout>
+    <presentertitle><![CDATA[]]></presentertitle>
+    <presentername><![CDATA[]]></presentername>
+    <presentercompany><![CDATA[]]></presentercompany>
+    <presenteremail><![CDATA[]]></presenteremail>
+    <presentationtitle>New Brighon Phase Rotary Club</presentationtitle>
+    <powerpointfile>New Brighon Phase Rotary Club.ppt</powerpointfile>
+    <presentationdescription><![CDATA[]]></presentationdescription>
+    <presentationkeywords>NEW BRIGHTON REGENERATION“The Story So Far”,HISTORICAL BACKGROUND,DEVELOPMENT BACKGROUND,DEVELOPMENT AREA,DEVELOPMENT PHILOSOPHY,REVISED PROPOSAL,PHASE 1,PHASE 2,PHASE 2 - NEXT STEPS</presentationkeywords>
+    <audioquality>Medium</audioquality>
+    <imagequality>9</imagequality>
+    <showslidenotesinoutput>True</showslidenotesinoutput>
+    <usenarrations>True</usenarrations>
+  </properties>
+  <slides>
+    <slide id="1">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide1.swf</fileurl>
+<slideimage height="150" width="200">Images/slide1_200,150.jpg</slideimage>
+<title><![CDATA[NEW BRIGHTON REGENERATION“The Story So Far”]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[NEW BRIGHTON REGENERATION“The Story So Far”  6th March 2008  ]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="2">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide2.swf</fileurl>
+<slideimage height="150" width="200">Images/slide2_200,150.jpg</slideimage>
+<title><![CDATA[Slide 2]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="3">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide3.swf</fileurl>
+<slideimage height="150" width="200">Images/slide3_200,150.jpg</slideimage>
+<title><![CDATA[HISTORICAL BACKGROUND]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[HISTORICAL BACKGROUND  New Brighton was the most popular resort in the Northwest in the first half of the 20th Century.Renowned for its Tower, Open Air Swimming Pool, beaches and Pier.Popularity faded with the closure of the Liverpool to New Brighton ferry service.  ]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="4">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide4.swf</fileurl>
+<slideimage height="150" width="200">Images/slide4_200,150.jpg</slideimage>
+<title><![CDATA[Slide 4]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="5">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide5.swf</fileurl>
+<slideimage height="150" width="200">Images/slide5_200,150.jpg</slideimage>
+<title><![CDATA[Slide 5]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="6">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide6.swf</fileurl>
+<slideimage height="150" width="200">Images/slide6_200,150.jpg</slideimage>
+<title><![CDATA[Slide 6]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="7">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide7.swf</fileurl>
+<slideimage height="150" width="200">Images/slide7_200,150.jpg</slideimage>
+<title><![CDATA[Slide 7]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="8">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide8.swf</fileurl>
+<slideimage height="150" width="200">Images/slide8_200,150.jpg</slideimage>
+<title><![CDATA[Slide 8]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="9">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide9.swf</fileurl>
+<slideimage height="150" width="200">Images/slide9_200,150.jpg</slideimage>
+<title><![CDATA[DEVELOPMENT BACKGROUND]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[DEVELOPMENT BACKGROUND  Longstanding aspiration to attract major leisure based development back to New Brighton2001 – Neptune appointed to work up sustainable and viable proposals to re-establish New Brighton as a visitor attraction Three years of scheme development and extensive consultationSeptember 2004 – Wirral MBC gives concept all party support  ]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="10">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide10.swf</fileurl>
+<slideimage height="150" width="200">Images/slide10_200,150.jpg</slideimage>
+<title><![CDATA[DEVELOPMENT AREA]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[DEVELOPMENT AREA  ]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="11">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide11.swf</fileurl>
+<slideimage height="150" width="200">Images/slide11_200,150.jpg</slideimage>
+<title><![CDATA[DEVELOPMENT PHILOSOPHY]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[DEVELOPMENT PHILOSOPHY  Influenced by NWDA’s New Vision for Northwest Coastal Resorts and CABE’s Shifting Sands documents. Diversification – Year Round Uses Critical Mass of Leisure Development Major Upgrading of public realm  ]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="12">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide12.swf</fileurl>
+<slideimage height="150" width="200">Images/slide12_200,150.jpg</slideimage>
+<title><![CDATA[Slide 12]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="13">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide13.swf</fileurl>
+<slideimage height="150" width="200">Images/slide13_200,150.jpg</slideimage>
+<title><![CDATA[Slide 13]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="14">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide14.swf</fileurl>
+<slideimage height="150" width="200">Images/slide14_200,150.jpg</slideimage>
+<title><![CDATA[Slide 14]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="15">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide15.swf</fileurl>
+<slideimage height="150" width="200">Images/slide15_200,150.jpg</slideimage>
+<title><![CDATA[Slide 15]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="16">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide16.swf</fileurl>
+<slideimage height="150" width="200">Images/slide16_200,150.jpg</slideimage>
+<title><![CDATA[REVISED PROPOSAL]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[REVISED PROPOSAL  The most positive refusal we could have hoped forScheme divided into 2 Phases Phase 1 – Focus on saving the Floral Pavilion TheatrePhase 2 – Commercial waterfront elements  ]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="17">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide17.swf</fileurl>
+<slideimage height="150" width="200">Images/slide17_200,150.jpg</slideimage>
+<title><![CDATA[Slide 17]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="18">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide18.swf</fileurl>
+<slideimage height="150" width="200">Images/slide18_200,150.jpg</slideimage>
+<title><![CDATA[PHASE 1]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[PHASE 1  Rebuild 800 seat Theatre Extend to include Exhibition and Conference Space  Complemented by Restaurants/Bars and Apartments Work started in September On target to complete in November 2008 £17m scheme - £8.5m via Mersey Waterfront  ]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="19">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide19.swf</fileurl>
+<slideimage height="150" width="200">Images/slide19_200,150.jpg</slideimage>
+<title><![CDATA[Slide 19]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="20">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide20.swf</fileurl>
+<slideimage height="150" width="200">Images/slide20_200,150.jpg</slideimage>
+<title><![CDATA[Slide 20]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="21">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide21.swf</fileurl>
+<slideimage height="150" width="200">Images/slide21_200,150.jpg</slideimage>
+<title><![CDATA[PHASE 2]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[PHASE 2  Mixed Use Leisure Scheme Comprising:Upgraded Marine Lake and Sailing School Health and Fitness Centre with Outdoor Lido Cinema, Bingo and Potentially CasinoCafé Bars and Restaurants60 Bed Premier Inn Hotel Morrisons Supermarket Upgraded Public Realm  ]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="22">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide22.swf</fileurl>
+<slideimage height="150" width="200">Images/slide22_200,150.jpg</slideimage>
+<title><![CDATA[Slide 22]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[GROUND FLOOR ARRANGEMENTS  ]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="23">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide23.swf</fileurl>
+<slideimage height="150" width="200">Images/slide23_200,150.jpg</slideimage>
+<title><![CDATA[Slide 23]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[UPPER LEVEL ARRANGEMENT  ]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="24">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide24.swf</fileurl>
+<slideimage height="150" width="200">Images/slide24_200,150.jpg</slideimage>
+<title><![CDATA[PHASE 2 - NEXT STEPS]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[PHASE 2 - NEXT STEPS  Outline Planning Application GrantedFirst Reserved Matters Application submitted in FebruaryStart on site remediation late summer2010 – Open for business  ]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="25">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide25.swf</fileurl>
+<slideimage height="150" width="200">Images/slide25_200,150.jpg</slideimage>
+<title><![CDATA[Slide 25]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="26">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide26.swf</fileurl>
+<slideimage height="150" width="200">Images/slide26_200,150.jpg</slideimage>
+<title><![CDATA[Slide 26]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="27">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide27.swf</fileurl>
+<slideimage height="150" width="200">Images/slide27_200,150.jpg</slideimage>
+<title><![CDATA[Slide 27]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="28">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide28.swf</fileurl>
+<slideimage height="150" width="200">Images/slide28_200,150.jpg</slideimage>
+<title><![CDATA[Slide 28]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="29">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide29.swf</fileurl>
+<slideimage height="150" width="200">Images/slide29_200,150.jpg</slideimage>
+<title><![CDATA[Slide 29]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="30">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide30.swf</fileurl>
+<slideimage height="150" width="200">Images/slide30_200,150.jpg</slideimage>
+<title><![CDATA[Slide 30]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="31">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide31.swf</fileurl>
+<slideimage height="150" width="200">Images/slide31_200,150.jpg</slideimage>
+<title><![CDATA[Slide 31]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+    <slide id="32">
+<transition>7,Iris,0.5,5,Iris.SQUARE</transition>
+<width>720</width>
+<height>540</height>
+<transitionurl></transitionurl>
+<slidenavigation onclick="true" slideadvmode="true" />
+<fileurl>Slides/slide32.swf</fileurl>
+<slideimage height="150" width="200">Images/slide32_200,150.jpg</slideimage>
+<title><![CDATA[Slide 32]]></title>
+<notes><![CDATA[]]></notes>
+<slidetext><![CDATA[]]></slidetext>
+<waitforuser>false</waitforuser>
+<totalframes>102</totalframes>
+<time>00:00:05</time>
+</slide>
+  </slides>
+</presentation>

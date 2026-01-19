@@ -5,10 +5,10 @@
   <title>New Brighton Online</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  
   <link rel="stylesheet" href="navstyles.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
@@ -223,109 +223,48 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Contact Us</h1> 
+  <h1>Register</h1> 
 </div>
 <!-- Container (About Section) -->
-<div id="about" class="container-fluid">
-  <div class="row">
-    <div class="col-sm-4">
-  </div>
-	    <div class="col-sm-4">
-		
-   			<table class="table table-bordered" >
-    			<thead>
-      				<tr	><th><h2>Contact Us</h2></th><th></th></tr>
-     			</thead>
-     			<tbody>
-                <form role="form" name="contactform" method="post" action="send_form_email_bs.php"> 
-       				<tr>
-         				<div class="form-group">
+<div class="container">
+  
+    <form  name="contactform" method="post" action="registration.php"> 
+        <div class="form-group">
+            <input type="text" class="form-control" name= "fullname" placeholder = "Full Name">				  																									<td><input type="name" class="form-control" id="name" name="name" placeholder="Enter email"></td>
+        </div>   
+        <div class="form-group">
+            <input type="text" class="form-control" name= "fullname" placeholder = "Email">				  																									<td><input type="name" class="form-control" id="name" name="name" placeholder="Enter email"></td>
+        </div>   
+         <div class="form-group">
+            <input type="text" class="form-control"  name= "fullname" placeholder = "Password">				  																									<td><input type="name" class="form-control" id="name" name="name" placeholder="Enter email"></td>
+        </div>   
+         <div class="form-group">
+            <input type="text" class="form-control" name= "fullname" placeholder = "Repeat Password">				  																									<td><input type="name" class="form-control" id="name" name="name" placeholder="Enter email"></td>
+        </div>   
+         <div class="form-group">
+            <input type="submit" class="btn btn-primary" value= "Registerx" name = "submit">				  																									<td><input type="name" class="form-control" id="name" name="name" placeholder="Enter email"></td>
+        </div>                           
                         
-                        
-           					<td><label for="name" class="col-sm-6 control-label">Please enter your name:</label></td>
-          						<div class="col-sm-10">         							           							  																									<td><input type="name" class="form-control" id="name" name="name" placeholder="Enter name"></td>
-           						</div>
-         				</div>        
+
+
+
+
+
+
        				</tr>       
-              		<tr>
-         			<div class="form-group">
-           				<td><label for="email" class="col-sm-6 control-label">Please enter your email address:</label></td>
-          				<div class="col-sm-10">
-           					<td><input type="email" class="form-control" id="email" name ="email" placeholder="Enter email"></td>
-           				</div>
-         			</div>        
-       				</tr>
-               	 	<tr>
-         				<div class="form-group">
-           				<td><label for="subject" class="col-sm-6 control-label">Subject</label></td>
-           					<div class="col-sm-10">
-           						<td><input type="subject" class="form-control" id="subject" name ="subject" placeholder="Subject"></td>           				</div>
-         				</div>        
-       				</tr>  
-                	<tr>
-                		<div class="form-group">
-                   			<td><label for="Comments" class="col-sm-2 control-label">Comments</label></td>
-                   			<div class="col-sm-10">
-                   				<td><textarea class="form-control" rows="5" name="comments" id="comments" placeholder="Comments">
-                                </textarea></td>
-                        	</div>
-                 		</div>        
-       				</tr>
-              		<tr class="hide">
-               			<div class="form-group">
-               				<td><label for="question" class="col-sm-2 control-label">What is four plus three</label></td>
-                    			<div class="col-sm-10">
-                   					<td><input type="question" class="form-control" id="spam" name ="spam"></td>
-                 				</div>
+              		
                			</div>               
                		</tr>      
-      				<tr>      
-       					<div class="form-group"><td><div class="col-sm-10"></div></td>
-							<td><div class="col-sm-2 col-sm-offset-2">
-								<input id="submit" name="submit" type="submit" value="Submit Your Comments" class="btn btn-primary">																
-                      			</div>
-                        	</td>
-						</div>
-      				</tr>  
-                	<tr>      
-                		<div class="form-group"><td><div class="col-sm-10"></div></td>
-                    		<td><div class="col-sm-2 col-sm-offset-2">
-                     			<button name="reset" type="reset" class="btn btn-default"  onClick="reset(); return false;">Reset</button>				
-                            	</div>
-                             </td>        
-                    	</div>
-                	</tr>
+      				
+                    
+                	
                     </form>
      			</tbody>
    			</table>
 		
         </hr>
-	  <div class="row">
-  <div class="col-sm-4"></div>
-  <div class="col-sm-8">
-    <ul class="list-group">
-    <li class="list-group-item">NEW BRIGHTON ONLINE</li>
-    <li class="list-group-item">New Brighton Community Centre,</li>
-    <li class="list-group-item">1A Hope Street,</li>
-    <li class="list-group-item">New Brighton,</li>
-    <li class="list-group-item">Merseyside, </li>
-    <li class="list-group-item">CH45 2LN</li>
-    <li class="list-group-item">EMAIL: <a href="mailto:newbrightononline@gmail.com">newbrightononline@gmail.com</a></li>
-    <li class="list-group-item"><a href=" https://twitter.com/NBCommunityCent" class="twitter-follow-button" data-show-count="false">Follow @twitter</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
-    <li class="list-group-item"><a href="https://www.facebook.com/new.brighton.9" target="_blank"><img src="http://www.newbrightononline.org.uk/assets/FB_FindUsOnFacebook-100.png" alt="facebook">																		</a></li>
-    <li class="list-group-item">TEL: 0151 630 2626</li>
-    <li class="list-group-item"><a href="http://www.newbrightononline.org.uk/Docs/NBCC%20HIRE%20BOOKING%20ORM.PUB">NBCC Hire Booking Form</a></li>  
-  </ul>		
-</div>
-  <div class="col-sm-4"></div>
-</div>  
-<footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-  <p>Website Made By <a href="https://www.petercarey.co.uk" title="P Carey">P Carey </a>&copy; Copyright MMXVIII New Brighton Online</p>
-</footer>			
+
+	
 		</div>      
   </div> 
 </body>

@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['user_id'])) {
+    header("Location: login.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -106,7 +114,7 @@
   }
   .panel-footer {
       background-color: white !important;
-  }
+   }
   .panel-footer h3 {
       font-size: 32px;
   }
@@ -119,7 +127,7 @@
       background-color: #f4511e;
       color: #fff;
   }
-
+ 
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
@@ -184,13 +192,12 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-left">
-
-  	<li class="dropdown">
+ 	<li class="dropdown">
     	    <a class="dropdown-toggle" type="dropdown" data-toggle="dropdown">New Brighton
    	    <span class="caret"></span></a>
     	    <ul class="dropdown-menu">
      	        <li><a href="history1.htm">History of New Brighton</a></li>
-      		<li><a href="localEvents1.htm">Local Events</a></li>
+      		<li><a href="localEvents1.htm">Local Events</a></li>     		
     	    </ul>
   	</li>	
   	<li class="dropdown">
@@ -207,7 +214,7 @@
   	</li>	
         <li><a href="https://www.wirral.gov.uk/about-council/contact-us/one-stop-shops" target="_blank" >One Stop Shops</a></li>
         <li><a href="mapinfo1.htm">Where are We</a></li> 
-        <li><a href="/login_register/registration.php">Contact Us</a></li> 
+        <li><a href="contact1.htm">Contact Us</a></li>
  	<li class="dropdown">
     	    <a class="dropdown-toggle" type="dropdown" data-toggle="dropdown">Useful Links
    	    <span class="caret"></span></a>
@@ -216,7 +223,7 @@
       		    <li><a href="http://www.dfes.gov.uk" target="_blank">Department of Education</a></li>
      		    <li><a href="https://www.biglotteryfund.org.uk/funding/under10k" target="_blank">National Lottery Awards For All</a></li>
      		</ul>
-  	</li>	
+  	</li>	 
      </ul>
     </div>
     </div>
@@ -224,39 +231,110 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>THE ORIGINS OF NEW BRIGHTON COMMUNITY CENTRE</h1> 
+  <h1>Contact Us</h1> 
 </div>
-
-<div class="container-fluid">
-<div class="row">
-  <div class="col-sm-12">
-<p>The origins and ideas for a community centre go back to 1973 when local stalwarts Mrs Beryl Lloyd, Joe Newton and Jenny Merrill got together and formed the New Brighton Community Group. All three were not only instrumental in its foundation but were also leading lights in the local community themselves.
-</p>
-<p><b>Mrs Beryl Lloyd</b>: In 1974 at the formation of the then New Brighton Community Group when there was no money, no place to meet, yet under the inspiration of Mrs Lloyd the group kept together at meetings and the same lady persuaded the pastor of St Andrews (the old Methodist Church Hall) to let us meet in a church room - were each member paid 10p to hold the meeting. From these humble steps the group strived forward to meeting at what is now the dental practice on the corner of Victoria Road before moving in to its present headquarters in Hope Street in 1981 which was the old Police station. Through all those early struggles Mrs Lloyd was a constant inspiration.
-</p>
-<p>
-<b>Mr Joe Newton</b>: Joe was a genial character well known in the New Brighton area were he and his wife ran a newsagents shop in Victoria Road. It was famous for its old postcards of the resort and situated next door to Mac's the shoe shop. Joe a former Policeman was also involved for many years in the old Wallasey Ratepayers Association which and I quote from a 1962 newsletter which promoted:
-<ul><li>	A service charge for cars parking on the promenade</li>
-<li>	Improve the railways facilities at New Brighton station.</li>
-<li>	Establishment of a hover-craft service</li>
-<li>	Stop the continual dredging of the sands</li>
-</ul>
-</p>
-<p>
-Joe eventually successfully stood for the Ratepayers Association becoming a councillor for in the area in the early 60s. His involvement and experience in the area was later to be put to such great effect with the formation of the New Brighton Community Association in the 70s. Joe will always be remembered for his expertise in guiding the Community Association through that difficult early period.
-</p>
-<p><img class="img-responsive" src="assets/images/campaign.png" alt="campaign"  /></p>
-<p>
-<b>Mrs Jenny Merrill</b>: Jenny served with distinction as the Treasurer for a grand 22 years in all, her common sense and cautious approach with the finances enabled the Association to achieve a degree of stability under her stewardship. Jenny's other community commitments included being the treasurer of the Wirral Play Council and running the Youth & Brownie groups at the Emmanuel Church Hall on nearby Seabank Road.
-</p>
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+  </div>
+	    <div class="col-sm-4">
+		
+   			<table class="table table-bordered" >
+                <h1>Welcome! You are logged in.</h1>
+                <a href="/login_register/logout.php">Logout</a>
+    			<thead>
+      				<tr	><th><h2>Contact Us</h2></th><th></th></tr>
+     			</thead>
+     			<tbody>
+                <form role="form" name="contactform" method="post" action="send_form_email_bs.php">
+       				<tr>
+         				<div class="form-group">
+           					<td><label for="name" class="col-sm-6 control-label">Please enter your name:</label></td>
+          						<div class="col-sm-10">         							           							  																									<td><input type="name" class="form-control" id="name" name="name" placeholder="Enter name"></td>
+           						</div>
+         				</div>        
+       				</tr>       
+              		<tr>
+         			<div class="form-group">
+           				<td><label for="email" class="col-sm-6 control-label">Please enter your email address:</label></td>
+          				<div class="col-sm-10">
+           					<td><input type="email" class="form-control" id="email" name ="email" placeholder="Enter email"></td>
+           				</div>
+         			</div>        
+       				</tr>
+               	 	<tr>
+         				<div class="form-group">
+           				<td><label for="subject" class="col-sm-6 control-label">Subject</label></td>
+           					<div class="col-sm-10">
+           						<td><input type="subject" class="form-control" id="subject" name ="subject" placeholder="Subject"></td>           				</div>
+         				</div>        
+       				</tr>  
+                	<tr>
+                		<div class="form-group">
+                   			<td><label for="Comments" class="col-sm-2 control-label">Comments</label></td>
+                   			<div class="col-sm-10">
+                   				<td><textarea class="form-control" rows="5" name="comments" id="comments" placeholder="Comments">
+                                </textarea></td>
+                        	</div>
+                 		</div>        
+       				</tr>
+              		<tr class="hide">
+               			<div class="form-group">
+               				<td><label for="question" class="col-sm-2 control-label">What is four plus three</label></td>
+                    			<div class="col-sm-10">
+                   					<td><input type="question" class="form-control" id="spam" name ="spam"></td>
+                 				</div>
+               			</div>               
+               		</tr>      
+      				<tr>      
+       					<div class="form-group"><td><div class="col-sm-10"></div></td>
+							<td><div class="col-sm-2 col-sm-offset-2">
+								<input id="submit" name="submit" type="submit" value="Submit Your Comments" class="btn btn-primary">																
+                      			</div>
+                        	</td>
+						</div>
+      				</tr>  
+                	<tr>      
+                		<div class="form-group"><td><div class="col-sm-10"></div></td>
+                    		<td><div class="col-sm-2 col-sm-offset-2">
+                     			<button name="reset" type="reset" class="btn btn-default"  onClick="reset(); return false;">Reset</button>				
+                            	</div>
+                             </td>        
+                    	</div>
+                	</tr>
+                    </form>
+     			</tbody>
+   			</table>
+		
+        </hr>
+	  <div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-8">
+    <ul class="list-group">
+    <li class="list-group-item">NEW BRIGHTON ONLINE</li>
+    <li class="list-group-item">New Brighton Community Centre,</li>
+    <li class="list-group-item">1A Hope Street,</li>
+    <li class="list-group-item">New Brighton,</li>
+    <li class="list-group-item">Merseyside, </li>
+    <li class="list-group-item">CH45 2LN</li>
+    <li class="list-group-item">EMAIL: <a href="mailto:newbrightononline@gmail.com">newbrightononline@gmail.com</a></li>
+    <li class="list-group-item"><a href=" https://twitter.com/NBCommunityCent" class="twitter-follow-button" data-show-count="false">Follow @twitter</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+    <li class="list-group-item"><a href="https://www.facebook.com/new.brighton.9" target="_blank"><img src="http://www.newbrightononline.org.uk/assets/FB_FindUsOnFacebook-100.png" alt="facebook">																		</a></li>
+    <li class="list-group-item">TEL: 0151 630 2626</li>
+    <li class="list-group-item"><a href="http://www.newbrightononline.org.uk/Docs/NBCC%20HIRE%20BOOKING%20ORM.PUB">NBCC Hire Booking Form</a></li>  
+  </ul>		
 </div>
-</div>
+  <div class="col-sm-4"></div>
+</div>  
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>Website Made By <a href="https://www.petercarey.co.uk" title="P Carey">P Carey </a>&copy; Copyright MMXVIII New Brighton Online</p>
-</footer>
+</footer>			
+		</div>      
   </div> 
 </body>
 </html>

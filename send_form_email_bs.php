@@ -206,7 +206,7 @@
   	</li>	
         <li><a href="https://www.wirral.gov.uk/about-council/contact-us/one-stop-shops" target="_blank" >One Stop Shops</a></li>
         <li><a href="mapinfo1.htm">Where are We</a></li> 
-        <li><a href="contact1.htm">Contact Us</a></li>
+        <li><a href="contact1.php">Contact Us</a></li>
  	<li class="dropdown">
     	    <a class="dropdown-toggle" type="dropdown" data-toggle="dropdown">Useful Links
    	    <span class="caret"></span></a>
@@ -231,7 +231,7 @@
 
 if(isset($_POST['email'])) {
  
-echo "Test contact form script";      
+    // echo "test contact form script";      
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
@@ -245,7 +245,7 @@ echo "Test contact form script";
  
     function died($error) {
  
-        // your error code can go here
+        // error code goes here
  
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
  
@@ -362,16 +362,16 @@ ini_set('sendmail_from', 'pete.carey@yahoo.co.uk');
 mail($email_to, $email_subject, $email_message, $headers);  
  
 ?>
- 
- 
- 
+  
 <!--  success html here -->
- 
- 
- 
-<p>Thank you for contacting us. We will be in touch with you very soon.</p>
- 
- 
+<article class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-8">
+      <p>Thank you for contacting us. We will be in touch with you very soon.</p>
+    </div>
+  </div>
+</article>  
  
 <?php
  
@@ -383,7 +383,7 @@ mail($email_to, $email_subject, $email_message, $headers);
 </hr>
 	  <div class="row">
   <div class="col-sm-4"></div>
-  <div class="col-sm-8">
+  <div class="col-sm-4">
     <ul class="list-group">
     <li class="list-group-item">NEW BRIGHTON ONLINE</li>
     <li class="list-group-item">New Brighton Community Centre,</li>

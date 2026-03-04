@@ -1,335 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>New Brighton Online - Local Events</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="navstyles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  body {
-      font: 400 15px Lato, sans-serif;
-      line-height: 1.8;
-      color: #818181;
-  }
-  h2 {
-      font-size: 24px;
-      text-transform: uppercase;
-      color: #303030;
-      font-weight: 600;
-      margin-bottom: 30px;
-  }
-  h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      color: #303030;
-      font-weight: 400;
-      margin-bottom: 30px;
-  }  
-  .jumbotron {
-      background-color: #f4511e;
-      color: #fff;
-      padding: 100px 25px;
-      font-family: Montserrat, sans-serif;
-  }
-  .container-fluid {
-      padding: 60px 50px;
-  }
-  .bg-grey {
-      background-color: #f6f6f6;
-  }
-  .logo-small {
-      color: #f4511e;
-      font-size: 50px;
-  }
-  .logo {
-      color: #f4511e;
-      font-size: 200px;
-  }
-  .thumbnail {
-      padding: 0 0 15px 0;
-      border: none;
-      border-radius: 0;
-  }
-  .thumbnail img {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 10px;
-  }
-  .carousel-control.right, .carousel-control.left {
-      background-image: none;
-      color: #f4511e;
-  }
-  .carousel-indicators li {
-      border-color: #f4511e;
-  }
-  .carousel-indicators li.active {
-      background-color: #f4511e;
-  }
-  .item h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      font-weight: 400;
-      font-style: italic;
-      margin: 70px 0;
-  }
-  .item span {
-      font-style: normal;
-  }
-  .panel {
-      border: 1px solid #f4511e; 
-      border-radius:0 !important;
-      transition: box-shadow 0.5s;
-  }
-  .panel:hover {
-      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
-  }
-  .panel-footer .btn:hover {
-      border: 1px solid #f4511e;
-      background-color: #fff !important;
-      color: #f4511e;
-  }
-  .panel-heading {
-      color: #fff !important;
-      background-color: #f4511e !important;
-      padding: 25px;
-      border-bottom: 1px solid transparent;
-      border-top-left-radius: 0px;
-      border-top-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-  }
-  .panel-footer {
-      background-color: white !important;
-  }
-  .panel-footer h3 {
-      font-size: 32px;
-  }
-  .panel-footer h4 {
-      color: #aaa;
-      font-size: 14px;
-  }
-  .panel-footer .btn {
-      margin: 15px 0;
-      background-color: #f4511e;
-      color: #fff;
-  }
-
-  footer .glyphicon {
-      font-size: 20px;
-      margin-bottom: 20px;
-      color: #f4511e;
-  }
-  .slideanim {visibility:hidden;}
-  .slide {
-      animation-name: slide;
-      -webkit-animation-name: slide;
-      animation-duration: 1s;
-      -webkit-animation-duration: 1s;
-      visibility: visible;
-  }
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-    .btn-lg {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    .logo {
-        font-size: 150px;
-    }
-  }
-  </style>
+    <title>New Brighton Online - Local Events</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="navstyles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="newbrightononline.htm"><img class="img-responsive" id="index_theCentre" src="#" alt="" />HOME</a>
+    <nav id="nav"></nav>
+
+    <div class="jumbotron text-center">
+        <h1>New Brighton Online</h1> 
+        <p>Local Events</p> 
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                    <p>Please click on the links below</p>
+                    <h3><a href = "https://www.floralpavilion.com/whats-on/" target = "_blank">Floral Pavillion</a></h3>
+                    <h3><a href = "https://www.floralpavilion.com/whats-on-elsewhere/" target = "_blank">Local Events</a></h3>
+                    <h3><a href = "https://www.floralpavilion.com/regular-events/" target = "_blank">Regular Events</a></h3>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-sm-8">         
+                    <ul class="list-group">
+                        <li class="list-group-item">Floral Pavillion</li>
+                        <li class="list-group-item">Marine Promenade</li>
+                        <li class="list-group-item">Wallasey</li>
+                        <li class="list-group-item">Merseyside</li>
+                        <li class="list-group-item">CH45 2JS</li>
+                    </ul>
+                    </br>
+                    <ul class="list-group">
+                        <li class="list-group-item">0151 666 0000</li>          
+                        <li class="list-group-item"><a href = http://www.floralpavilion.com  target="_blank">http://www.floralpavilion.com </a></li>      
+                    </ul>
+                    <p></p> 
+                </div>
+            </div>
+             
+    <p></p>       
+    <hr>     
+    <div class="row">
+        <div class="col-sm-8">    
+            <footer id="footer"></footer> 
+            <script>
+            fetch("nav.htm")
+                .then((res) => res.text())
+                .then((html) => {
+                document.getElementById("nav").innerHTML = html;
+                });
+            fetch("footer.htm")
+                .then((res) => res.text())
+                .then((html) => {
+                document.getElementById("footer").innerHTML = html;
+                })
+                .catch((err) => console.error("Nav load failed:", err));
+            </script>
+        </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-left">
-
-  	<li class="dropdown">
-    	    <a class="dropdown-toggle" type="dropdown" data-toggle="dropdown">New Brighton
-   	    <span class="caret"></span></a>
-    	    <ul class="dropdown-menu">
-     	        <li><a href="history1.htm">History of New Brighton</a></li>
-      		<li><a href="#">Local Events</a></li>
-     	    </ul>
-  	</li>	
-  	<li class="dropdown">
-    	    <a class="dropdown-toggle" type="dropdown" data-toggle="dropdown">The Centre
-   	    <span class="caret"></span></a>
-    	        <ul class="dropdown-menu">
-     		    <li><a href="news1.htm">News</a></li>
-      		    <li><a href="whatson1.htm">Whats On</a></li>
-     		    <li><a href="howto1.htm">Hire a Room</a></li>
-     		    <li><a href="comasso1.htm">Community Association</a></li>
-     		    <li><a href="origins1.htm">The Origins of the Community Centre</a></li>
-     		    <li><a href="gallery1.htm">Gallery</a></li>
-    		</ul>
-  	</li>	
-        <li><a href="https://www.wirral.gov.uk/about-council/contact-us/one-stop-shops" target="_blank" >One Stop Shops</a></li>
-        <li><a href="mapinfo1.htm">Where are We</a></li> 
-        <li><a href="/login_register/registration.php">Contact Us</a></li> 
-  	<li class="dropdown">
-    	    <a class="dropdown-toggle" type="dropdown" data-toggle="dropdown">Useful Links
-   	    <span class="caret"></span></a>
-    	        <ul class="dropdown-menu">
-     		    <li><a href="http://www.wirral.gov.uk/" target="_blank">Wirral Council</a></li>
-      		    <li><a href="http://www.dfes.gov.uk" target="_blank">Department of Education</a></li>
-     		    <li><a href="https://www.biglotteryfund.org.uk/funding/under10k" target="_blank">National Lottery Awards For All</a></li>
-     		</ul>
-  	</li>	
-     </ul>
-     </ul>
-    </div>
-    </div>
-    </div>
-</nav>
-
-<div class="jumbotron text-center">
-  <h1>New Brighton Online</h1> 
-  <p>Local Events</p> 
-
-</div>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8">
-        <h3>Cinderella</h3>
-          <h4>Saturday 10th December 2016 to 08th January 2016</h4>
-    <h5>Various times</b></h5>
-          <p>With hit songs, a live band, a stunning bespoke set, fabulous costumes, the talented cast includes: This Morning's <b>Alison Hammond</b> as the "Fairy Godmother". The welcome return of <b>Olivia Birchenough</b> from Channel 5's Milkshake! as "Cinderella". Comedian <b>Tam Ryan</b> as "Buttons" and "Ugly Sisters" <b>Jamie Morris</b> and <b>Tarot Joseph</b>.</p>
-        
-          
-<ul class="list-group">
-	<li class="list-group-item">Floral Pavillion</li>
-	<li class="list-group-item">Marine Promenade</li>
- 	<li class="list-group-item">Wallasey</li>
-	<li class="list-group-item">Merseyside</li>
-	<li class="list-group-item">CH45 2JS</li>
-</ul>
-		  </br>
-<ul class="list-group">
-	<li class="list-group-item">0151 666 0000</li>          
-	<li class="list-group-item"><a href = "http://www.floralpavilion.com"  target="_blank">www.floralpavilion.com </a></li>          
-</ul> 
-    </div>
-  </div>
-</div>         
-
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8">         
-<hr>
-          <h3>Christmas with the Wirral Symphony Orchestra</h3>
-          <h4>Sunday 11/12/2016</h4>
-          <h5>2.15pm and 5.30pm</b></h5>
-      <p>Wirral Symphony Orchestra returns with two Yuletide concerts, with music for all ages to get your Christmas well and truly underway. Wirral Symphony Orchestra will be joined again by the children's choirs from Christ the King Primary School, Bromborough and St Peter's Primary School, Heswall. There will be a selection of seasonal readings. </p>
-
-
-
-<ul class="list-group">
-	<li class="list-group-item">Floral Pavillion</li>
-	<li class="list-group-item">Marine Promenade</li>
-	<li class="list-group-item">Wallasey</li>
-	<li class="list-group-item">Merseyside</li>
-	<li class="list-group-item">CH45 2JS</li>
-</ul>
-		  </br>
- <ul class="list-group">
- 	<li class="list-group-item">0151 666 0000</li>          
- 	<li class="list-group-item"><a href = http://www.floralpavilion.com  target="_blank">http://www.floralpavilion.com </a></li>      
- </ul>
- 		 <p></p> 
-
-    </div>
-  </div>
-</div>   
-
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8">         
- <hr>     
-         <h3>Christmas Party Night - Abba Forever</h3>
-          <h4>Tuesday 13th December 2016</h4>
-          <h5>7:00pm</h5>
-      
-<p>Established in 1998, the show has been recognised as one of the best recreations of Abba live in concert and performs at many of the U.K's most prestigious theatres up and down the country. At present, they are on a national U.K. tour, endeavouring to get theatre audiences on their feet and enjoying the music of Abba.
-</p>
-
-<ul class="list-group">
-	<li class="list-group-item">Floral Pavillion</li>
-	<li class="list-group-item">Marine Promenade</li>
- 	<li class="list-group-item">Wallasey</li>
-	<li class="list-group-item">Merseyside</li>
-	<li class="list-group-item">CH45 2JS</li>
-</ul>
-		  </br>
-<ul class="list-group">
-	<li class="list-group-item">0151 666 0000</li>          
-	<li class="list-group-item"><a href = "http://www.floralpavilion.com"  target="_blank">www.floralpavilion.com </a></li>          
-</ul>
-    </div>
-  </div>
-</div>  
- 		 <p></p>       
- <hr>     
-
-
-</div>   		
-
-</div>      
-  
-</div>
-
-<footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-  <p>Website Made By <a href="https://www.petercarey.co.uk" title="P Carey">P Carey </a>&copy; Copyright MMXVIII New Brighton Online</p>
-</footer>
-
-
-</div>  
-</body>
+    </body>
 </html>

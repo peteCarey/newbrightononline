@@ -265,7 +265,7 @@
         <script>
     document.addEventListener("DOMContentLoaded", function () {
 
-    const images = document.querySelectorAll(".gallery img");
+    const images = document.querySelectorAll("#gallery img");
 
     images.forEach(function (img) {
         img.addEventListener("click", function (e) {
@@ -289,12 +289,14 @@
 
             // Create modal image
             const modalImg = document.createElement("img");
-            modalImg.src = src;
+            modalImg.src = this.src;
             modalImg.alt = this.alt || "";
             modalImg.className = "img-responsive";
 
             // Add image to modal body
             showImg.appendChild(modalImg);
+            // THIS LINE OPENS THE MODAL
+            $("#myModal").modal("show");
         });
     });
 
